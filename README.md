@@ -1,2 +1,3 @@
-# Active_learning_for_Image-Sentimental_Analysis
-To generate a multi-arm bandit algorithm with a challenge of very little labelled data among millions of comments that is crawled.
+## Active_learning_for_Image-Sentimental_Analysis
+
+Here we are trying to generate a multi-arm bandit algorithm with a challenge of very little labelled data among millions of comments that we have crawled. My part focus on extracting features from random Images in any size and nature after pre-processing the image with tensorflow pre-processing package and to interface it with extracted features from sentiments attached to images. Here, I am using pre-trained inception V3 model to predict images and generate a feature vector array with it's unique id and to combine with sentimental comments to images.
